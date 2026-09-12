@@ -4,6 +4,22 @@
 
 This repository contains historical cryptocurrency cryptography experiments and a safe research boundary. It is not a wallet-cracking or address-to-private-key recovery tool.
 
+### Build and run
+
+Use the repository-wide orchestration layer first:
+
+```bat
+build-tools\build.bat
+```
+
+or:
+
+```powershell
+.\build-tools\build.ps1
+```
+
+The language-specific builders then run the applicable Python, Node.js, Java and C++ tests. Native C++ uses CMake/GCC or MSVC according to the host. Python packaging uses PyInstaller only on the target operating system.
+
 ### Implementation tracks
 
 - `python/` — Python research/reference layer.
