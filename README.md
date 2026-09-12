@@ -4,19 +4,24 @@
 
 This repository contains historical cryptocurrency cryptography experiments and a safe research boundary. It is not a wallet-cracking or address-to-private-key recovery tool.
 
+## Complete source-code citation index
+
+| Area | Source |
+|---|---|
+| Python research/reference | [python/](python/) |
+| Node.js integration | [node/](node/) |
+| Java integration | [java/](java/) |
+| C++ native layer | [cpp/](cpp/) |
+| Apple/SwiftUI | [apple/](apple/) |
+| Chimera interoperability | [chimera/](chimera/) |
+| Documentation | [docs/](docs/) |
+| Complete tracked repository | [source tree](.) |
+
+The links above provide README-level citations for all maintained code. Component directories are the detailed source-of-record boundaries.
+
 ### Centralized Apple Objective-C + Flutter
 
 The Apple companion is maintained in [`general/Apple-Implementations/bruteforce`](https://github.com/amerhwitat/general/tree/master/Apple-Implementations/bruteforce). It provides Objective-C/Xcode native integration and Flutter iOS/macOS UI while preserving the safe research boundary.
-
-### Implementation tracks
-
-- `python/` — Python research/reference layer.
-- `node/` — Node.js ESM integration layer.
-- `java/` — Java interoperability/application layer.
-- `cpp/` — C++ interoperability/native layer.
-- `apple/` — existing SwiftUI/Xcode iOS/iPadOS and macOS research shell.
-- `docs/` — cross-language contracts, provenance and security boundaries.
-- `chimera/` — shared 128D/P2P interoperability contract.
 
 ### Apple build
 
