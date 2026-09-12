@@ -4,23 +4,23 @@
 
 This repository contains historical cryptocurrency cryptography experiments and a safe research boundary. It is not a wallet-cracking or address-to-private-key recovery tool.
 
+### Centralized Apple Objective-C + Flutter
+
+The Apple companion is maintained in [`general/Apple-Implementations/bruteforce`](https://github.com/amerhwitat/general/tree/master/Apple-Implementations/bruteforce). It provides Objective-C/Xcode native integration and Flutter iOS/macOS UI while preserving the safe research boundary.
+
 ### Implementation tracks
 
 - `python/` — Python research/reference layer.
 - `node/` — Node.js ESM integration layer.
 - `java/` — Java interoperability/application layer.
 - `cpp/` — C++ interoperability/native layer.
-- `apple/` — SwiftUI/Xcode iOS/iPadOS and macOS research shell.
+- `apple/` — existing SwiftUI/Xcode iOS/iPadOS and macOS research shell.
 - `docs/` — cross-language contracts, provenance and security boundaries.
 - `chimera/` — shared 128D/P2P interoperability contract.
 
 ### Apple build
 
-`apple/project.yml` is generated with XcodeGen into native iOS/macOS application targets. Build/archive/export on macOS with Xcode. The Apple application preserves the repository's safe research boundary and never adds private-key recovery, seed guessing or unauthorized wallet access.
-
-### Chimera 128D + P2P
-
-The application may exchange research metadata through the common Chimera 128D state model, separating geometry from observer/perspective and supporting temporal, event, object, interaction and extensible vector state. `chimera/p2p_protocol.json` defines authenticated peer identity, capabilities, sequencing, replay protection and content-addressed synchronization. Security research remains local/public/synthetic; P2P does not distribute cracking jobs or private keys.
+Build/archive/export on macOS with Xcode and XcodeGen. The Apple application never adds private-key recovery, seed guessing or unauthorized wallet access.
 
 ### Safe scope
 
@@ -34,12 +34,6 @@ The application may exchange research metadata through the common Chimera 128D s
 ### Prohibited direction
 
 Do not add code that recovers, guesses, maps, brute-forces or searches for a private key corresponding to an arbitrary public address. Do not attack credentials or wallets not controlled by the operator.
-
-### Interoperability
-
-The cross-language implementation uses deterministic JSON/JSONL contracts so Python, Node.js, Java and C++ can consume the same public/synthetic vectors. The Chimera II C8192/R8192 layer consumes the same reproducibility metadata.
-
-See `docs/CRYPTO_AI_BOUNDARY.md`.
 
 ## License
 
