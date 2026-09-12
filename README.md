@@ -10,8 +10,13 @@ This repository contains historical cryptocurrency cryptography experiments and 
 - `node/` — Node.js ESM integration layer.
 - `java/` — Java interoperability/application layer.
 - `cpp/` — C++ interoperability/native layer.
+- `apple/` — SwiftUI/Xcode iOS/iPadOS and macOS research shell.
 - `docs/` — cross-language contracts, provenance and security boundaries.
 - `chimera/` — shared 128D/P2P interoperability contract.
+
+### Apple build
+
+`apple/project.yml` is generated with XcodeGen into native iOS/macOS application targets. Build/archive/export on macOS with Xcode. The Apple application preserves the repository's safe research boundary and never adds private-key recovery, seed guessing or unauthorized wallet access.
 
 ### Chimera 128D + P2P
 
