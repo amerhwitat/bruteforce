@@ -1,0 +1,1 @@
+const n=document.querySelector('#n'),out=document.querySelector('#out');function render(){const k=Number(n.value);out.textContent=`Illustrative binary search space: ${2**k} combinations.\nNo external target or credential is accessed.`}n.oninput=render;render();
