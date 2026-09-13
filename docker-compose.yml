@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    image: amerhwitat/bruteforce:local
+    container_name: bruteforce
+    init: true
