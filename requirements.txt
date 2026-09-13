@@ -1,0 +1,6 @@
+web3
+lxml
+requests
+colorama
+hdwallet
+# GUI research tools use Python's standard-library tkinter where available.
