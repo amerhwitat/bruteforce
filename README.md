@@ -1,5 +1,13 @@
 # bruteforce
 
+## Aurora Web Research Surface
+
+The public Aurora portal exposes the repository's safe wallet-operation, cryptographic research, restore-and-verify and synthetic benchmarking capabilities without adding wallet-cracking functionality.
+
+- Portal: https://amerhwitat.github.io/apps/chimera-ii-os/web/wallet-center.html
+- Wallet operations: `docs/WALLET_OPERATIONS.md`
+- AI boundary: `docs/CRYPTO_AI_BOUNDARY.md`
+
 ## Chimera II cross-language crypto research
 
 This repository contains historical cryptocurrency cryptography experiments and a safe research boundary. It is not a wallet-cracking or address-to-private-key recovery tool.
